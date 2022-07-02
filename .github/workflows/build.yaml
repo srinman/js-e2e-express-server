@@ -15,6 +15,7 @@ jobs:
          
     steps:
     - uses: actions/checkout@v1
+      name: checkout
     - name: Run node.js on latest Windows.
       uses: actions/setup-node@v1
       with:
